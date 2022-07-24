@@ -13,11 +13,11 @@ Properties of document:
 * anchors: It returns all <a> elements that have a name attribute.
 * baseURI: It returns a string value that represents the base URI of the document.
 * cookie: It returns the cookie of the current document.
-* charSet: It returns a string, representing the documentís character encoding.
+* charSet: It returns a string, representing the document‚Äôs character encoding.
 * defaultView: It returns the current Window Object.
 * designMode: It is used to set documents as editable or read-only.
 * domain: It returns the domain name of the document server.
-* doctype: It returns the documentís doctype.
+* doctype: It returns the document‚Äôs doctype.
 * embeds: It returns the collection of all embedded elements.
 * URL: It returns the complete URL of the document.
 * forms: It returns all the elements of the form.
@@ -55,7 +55,7 @@ Methods of Document:
 * normalizeDocument(): It is used to normalize an HTML document by removing any empty text nodes and joining the adjacent text nodes.
 * open(): It is used to open the output stream to collect the output.
 * querySelector(): It returns the first element that matches a specified CSS selector(s) in the document.
-* querySelectorAll(): It returns a collection of an elementís child elements that matches a specified CSS selector(s) in the document
+* querySelectorAll(): It returns a collection of an element‚Äôs child elements that matches a specified CSS selector(s) in the document
 * removeEventListener(): It removes the event handler from an element that has an attached event.
 * renameNode(): It is used to rename the node.
 * write(): It is used to write some content or javascript code in the document.
@@ -69,14 +69,14 @@ Whenever a window appears on the screen to display the contents of the document,
 
 Properties of the window:
 * Closed: It holds a Boolean value that represents whether the window is closed or not.
-* console: It returns a reference to the console object which provides access to the browserís debugging console.
+* console: It returns a reference to the console object which provides access to the browser‚Äôs debugging console.
 * defaultStatus: It is used to define the default message that will be displayed in the status bar when no activity is carried on by the browser.
 * controllers: It returns the XUL controller objects for the current Chrome window.
 * customElements: It returns a reference to the CustomElementRegistry object, which can be used to register new custom elements and also get information about already registered custom elements.
 * crypto: It returns the browser crypto object.
 * devicePixelRatio: It returns the ratio between physical pixels and device-independent pixels in the current display.
 * Document: It returns a reference to the document object of that window.
-* DOMMatrix: It returns a reference to a DOMMatrix object, which represents 4◊4 matrices, suitable for 2D and 3D operations.
+* DOMMatrix: It returns a reference to a DOMMatrix object, which represents 4√ó4 matrices, suitable for 2D and 3D operations.
 * frames[]: It represents an array that contains all the frames of a given window.
 * DOMPoint: It returns a reference to a DOMPoint object, which represents a 2D or 3D point in a coordinate system.
 * History: It provides information on the URLs visited in the current window.
@@ -108,7 +108,7 @@ Methods of Window:
 * clearInterval(): It clears the interval which has been set by the setInterval() function before that.
 * clearTimeout(): It clears the timeout which has been set by the setTimeout()function before that.
 * close(): It is used for closing a certain window or tab of the browser which was previously opened.
-* confirm(): It is used to display a modal dialog with an optional message and two buttons i.e. OK and Cancel. It returns true if the user clicks ìOKî, and false otherwise.
+* confirm(): It is used to display a modal dialog with an optional message and two buttons i.e. OK and Cancel. It returns true if the user clicks ‚ÄúOK‚Äù, and false otherwise.
 * focus(): It is used to give focus to an element in the current window.
 * getComputedStyle(): It is used to get all the computed CSS properties and values of the specified element.
 * getSelection(): It returns a Selection object representing the range of text selected by the user
